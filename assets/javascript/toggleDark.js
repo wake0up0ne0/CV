@@ -10,3 +10,4 @@ checkbox.addEventListener('change', function () {
         moon.innerHTML = feather.icons['moon'].toSvg({ 'fill': 'var(--fg-color-dark)' })
     }
 })
+checkbox.checked
