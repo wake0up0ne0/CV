@@ -1,13 +1,15 @@
 * {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    text-align: justify;
+    text-align: start;
     line-height: 1.5;
 }
 
 body {
     background-color: var(--bg-color);
 }
-
+li::marker {
+    font-size: 3rem;
+}
 .container {
     max-width: 900px;
     min-height: 900px;
