@@ -10,6 +10,7 @@
         @include body-text;
     }
     .skill-list {
-        padding-inline-start: 10px;
+        padding-inline-start: 16px;
+        list-style-type: circle
     }
 }
