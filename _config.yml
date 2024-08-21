@@ -13,6 +13,3 @@ plugins:
 
 exclude:
   - docker-compose.yml
-
-kramdown:
-  hard_wrap: true
