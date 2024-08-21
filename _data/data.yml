@@ -38,10 +38,8 @@ education:
   time: 2003-2008
   university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
 
-
 # Profile
 profile: "Hey, I`m Andrei! Looking for  Software Engineer job. /n I have 17 years in IT and management: /n 5 y in programming /n 4 y in project management /n 8 y in system administration"
-
 
 # Experience
 experience:
@@ -50,34 +48,3 @@ experience:
   company: hoopsly.com (hypercasual games publisher)
   details: "Based on an analytics team specification I have come up with an idea on howwe should build and automate the daily Extract-Transform-Load process. /n Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform). /n Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users. /n Created app logging and server usage monitoring. /nConfigured deploy and CI/CD: Digital Ocean Droplet running a dockerized app. /n Visualised performance metrics in Data Studio, wrote documentation. /n Created and operated mission critical everyday tool for a team of 50 producers and analysts. /n Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
 
-- role: Researcher
-  time: 2016-2020
-  company: Microsoft
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu \nfugiat nulla pariatur.\n"
-  technologies_used: |
-    Python, Tensorflow, Keras, Matlab
-
-publications:
-- title: Random title of paper. An interesting one.
-  link: "#"
-  authors: John E. Doe
-  conference: Some conference, 2016
-
-- title: Second title of paper. An interesting one too.
-  link: "#"
-  authors: John E. Doe
-  conference: Some conference again, 2018
-
-projects:
-- title: Cool Project
-  link: #
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua.\n#magic___^_^___line\n"
-- title: Cool Project
-  link: #
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua.\n#magic___^_^___line\n"
-# Volunteering
-volunteering:
-- time: 2020-Present
-  role: PR Manager
-  company: Some random organization
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n"
