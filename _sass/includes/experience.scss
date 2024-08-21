@@ -1,11 +1,11 @@
-.experiance {
+.experience {
     .title {
         @include header;
     }
     .experience-item {
         margin-top: 15;
         margin-bottom: 15;
-        
+
         .role {
             @include sub-header;
         }
