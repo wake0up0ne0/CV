@@ -9,4 +9,7 @@
     .skill {
         @include body-text;
     }
+    .skill-list {
+        padding-inline-start: 10px;
+    }
 }
