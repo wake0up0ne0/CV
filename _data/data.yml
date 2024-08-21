@@ -12,18 +12,22 @@ contact:
   twitter:
 
 skills:
-- category: Backend
+- category: Hard
   skill:
-  - Go
-  - Rust
-- category: Frontend
+  - C#  and Unity3D (VR, Android, iOS)
+  - Gitlab, Linux,  infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
+  - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
+
+- category: Soft
   skill:
-  - React
-  - Typescript
-- category: DevOps
-  skill:
-  - Docker
-  - Kubernetes
+  - Keep calm & carry on
+  - Always learn and share knowledge. Can't ignore a good question
+  - Cat-like curiosity. New framework? Let's go!
+  - Teamplayer or self-sufficient solo, depending on the situation
+  - Translator between tech and business people. Building bridges between worlds
+  - Believe it or not, I like refactoring.
+
+
 
 languages:
 - idiom: English C2
