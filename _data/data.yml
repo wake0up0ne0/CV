@@ -28,13 +28,14 @@ skills:
       - Believe it or not, I like refactoring.
 
 languages:
-  - idiom: English C2
-  - idiom: Spanish B2
+  - idiom: English - C2
+  - idiom: Spanish - B2
+  - idiom: Russian - Native
 
 education:
-  - degree: Bachelor's degree in ”Informatics in metrology and quality management”
+  - degree: Bachelor's degree in "Informatics in metrology and quality management"
     time: 2003-2008
-    university: Moscow State Technological University of Heavy Machines and Tools “Stankin”
+    university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
 
 # Profile
 profile: |
