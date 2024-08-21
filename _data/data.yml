@@ -11,16 +11,6 @@ contact:
   gitlab:
   twitter:
 
-languages:
-- idiom: English
-- idiom: Russian
-- idiom: Spanish
-
-education:
-- degree: Bachelor's degree in ”Informatics in metrology and quality management”
-  time: 2003-2008
-  university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
-
 skills:
 - category: Backend
   skill:
@@ -35,16 +25,26 @@ skills:
   - Docker
   - Kubernetes
 
+languages:
+- idiom: English C2
+- idiom: Spanish B2
+
+education:
+- degree: Bachelor's degree in ”Informatics in metrology and quality management”
+  time: 2003-2008
+  university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
+
+
 # Profile
-profile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu \nfugiat nulla pariatur.\n    #magic___^_^___line\n"
+profile: "Hey, I`m Andrei! Looking for  Software Engineer job. /n I have 17 years in IT and management: /n 5 y in programming /n 4 y in project management /n 8 y in system administration"
+
+
 # Experience
 experience:
-- role: Software Engineer
-  time: 2020-Present
-  company: Google
-  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu \nfugiat nulla pariatur.\n"
-  technologies_used: |
-    Go, Angular, Typescript, C++
+- role: C# Developer, DevOps, PM
+  time: 2021-2023
+  company: hoopsly.com (hypercasual games publisher)
+  details: "Based on an analytics team specification I have come up with an idea on howwe should build and automate the daily Extract-Transform-Load process. /n Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform). /n Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users. /n Created app logging and server usage monitoring. /nConfigured deploy and CI/CD: Digital Ocean Droplet running a dockerized app. /n Visualised performance metrics in Data Studio, wrote documentation. /n Created and operated mission critical everyday tool for a team of 50 producers and analysts. /n Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
 
 - role: Researcher
   time: 2016-2020
