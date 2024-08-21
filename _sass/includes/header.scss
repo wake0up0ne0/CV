@@ -8,14 +8,19 @@
         color: var(--fg-color-dark);
         font-weight: bolder;
     }
-    input[type="checkbox"]{
+    input[type="checkbox"] {
         width: 0;
-        height:0;
+        height: 0;
         display: none;
+        
+        // Ensure the checkbox is checked when page loads
+        &:checked {
+            display: block;
+        }
     }
+    
     label {
         cursor: pointer;
         color: var(--fg-color-dark);
-        
     }
 }
