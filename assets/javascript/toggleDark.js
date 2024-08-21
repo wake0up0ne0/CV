@@ -11,3 +11,4 @@ checkbox.addEventListener('change', function () {
     }
 })
 this.checked = true;
+document.getElementById("switch").checked = true;
