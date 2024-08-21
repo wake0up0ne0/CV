@@ -8,11 +8,10 @@
         color: var(--fg-color-dark);
         font-weight: bolder;
     }
-    input[type="checkbox"]:checked {
+    input[type="checkbox"]{
         width: 0;
         height:0;
         display: none;
-        
     }
     label {
         cursor: pointer;
