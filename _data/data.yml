@@ -37,7 +37,7 @@ education:
     university: Moscow State Technological University of Heavy Machines and Tools “Stankin”
 
 # Profile
-profile: "Hey, I`m Andrei! <br> Looking for Software Engineer job. <br> I have 17 years in IT and management: <br> 5 y in programming 4 y in project management 8 y in system administration"
+profile: "Looking for Software Engineer job. <br> I have 17 years in IT and management: <br> 5 y in programming <br>4 y in project management <br>8 y in system administration"
 profile2: "sdf"
 
 # Experience
@@ -45,4 +45,4 @@ experience:
   - role: C# Developer, DevOps, PM
     time: 2021-2023
     company: hoopsly.com (hypercasual games publisher)
-    details: "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.  Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).  Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.  Created app logging and server usage monitoring. Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app.  Visualised performance metrics in Data Studio, wrote documentation.  Created and operated mission critical everyday tool for a team of 50 producers and analysts.  Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
+    details: "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.<br> Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform). <br>Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.  <br> Created app logging and server usage monitoring. Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app. <br> Visualised performance metrics in Data Studio, wrote documentation. <br> Created and operated mission critical everyday tool for a team of 50 producers and analysts. <br>  Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
