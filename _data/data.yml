@@ -59,10 +59,6 @@ publications:
   authors: John E. Doe
   conference: Some conference, 2016
 
-- title: Second title of paper. An interesting one too.
-  link: "#"
-  authors: John E. Doe
-  conference: Some conference again, 2018
 
 projects:
 - title: Cool Project
