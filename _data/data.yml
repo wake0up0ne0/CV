@@ -37,11 +37,10 @@ education:
     university: Moscow State Technological University of Heavy Machines and Tools “Stankin”
 
 # Profile
-profile:
+profile: |
   "Looking for Software Engineer job. I have 17 years in IT and management:
-  \n
-  5 y in programming
-  \n
+
+  5 y in programming  
   4 y in project management
   \n
   8 y in system administration"
