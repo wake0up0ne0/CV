@@ -34,10 +34,10 @@ languages:
 education:
   - degree: Bachelor's degree in ”Informatics in metrology and quality management”
     time: 2003-2008
-    university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
+    university: Moscow State Technological University of Heavy Machines and Tools “Stankin”
 
 # Profile
-profile: "Hey, I`m Andrei! Looking for Software Engineer job.  I have 17 years in IT and management: <br> 5 y in programming 4 y in project management 8 y in system administration"
+profile: "Hey, I`m Andrei!  Looking <br><br> for      Software Engineer job.  I have 17 years in IT and management: <br> 5 y in programming 4 y in project management 8 y in system administration"
 
 # Experience
 experience:

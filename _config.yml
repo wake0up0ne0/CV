@@ -1,7 +1,7 @@
 title: CV Andrei Martianov
 description: Developer CV.
 url: https://wake0up0ne0.github.io/CV
-baseurl: ''
+baseurl: ""
 theme_skin: blue
 
 sass:
@@ -9,7 +9,10 @@ sass:
   style: compressed
 
 plugins:
-- jekyll-minifier
+  - jekyll-minifier
 
 exclude:
-- docker-compose.yml
+  - docker-compose.yml
+
+kramdown:
+  hard_wrap: true
