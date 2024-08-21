@@ -12,39 +12,36 @@ contact:
   twitter:
 
 skills:
-- category: Hard
-  skill:
-  - C#  and Unity3D (VR, Android, iOS)
-  - Gitlab, Linux,  infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
-  - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
+  - category: Hard
+    skill:
+      - C#  and Unity3D (VR, Android, iOS)
+      - Gitlab, Linux,  infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
+      - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
 
-- category: Soft
-  skill:
-  - Keep calm & carry on
-  - Always learn and share knowledge. Can't ignore a good question
-  - Cat-like curiosity. New framework? Let's go!
-  - Teamplayer or self-sufficient solo, depending on the situation
-  - Translator between tech and business people. Building bridges between worlds
-  - Believe it or not, I like refactoring.
-
-
+  - category: Soft
+    skill:
+      - Keep calm & carry on
+      - Always learn and share knowledge. Can't ignore a good question
+      - Cat-like curiosity. New framework? Let's go!
+      - Teamplayer or self-sufficient solo, depending on the situation
+      - Translator between tech and business people. Building bridges between worlds
+      - Believe it or not, I like refactoring.
 
 languages:
-- idiom: English C2
-- idiom: Spanish B2
+  - idiom: English C2
+  - idiom: Spanish B2
 
 education:
-- degree: Bachelor's degree in ”Informatics in metrology and quality management”
-  time: 2003-2008
-  university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
+  - degree: Bachelor's degree in ”Informatics in metrology and quality management”
+    time: 2003-2008
+    university: Moscow State Technological University of Heavy Machines and Tools “Stankin2”
 
 # Profile
-profile: "Hey, I`m Andrei! Looking for  Software Engineer job. /n I have 17 years in IT and management: /n 5 y in programming /n 4 y in project management /n 8 y in system administration"
+profile: "Hey, I`m Andrei! Looking for Software Engineer job. I have 17 years in IT and management: 5 y in programming 4 y in project management 8 y in system administration"
 
 # Experience
 experience:
-- role: C# Developer, DevOps, PM
-  time: 2021-2023
-  company: hoopsly.com (hypercasual games publisher)
-  details: "Based on an analytics team specification I have come up with an idea on howwe should build and automate the daily Extract-Transform-Load process. /n Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform). /n Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users. /n Created app logging and server usage monitoring. /nConfigured deploy and CI/CD: Digital Ocean Droplet running a dockerized app. /n Visualised performance metrics in Data Studio, wrote documentation. /n Created and operated mission critical everyday tool for a team of 50 producers and analysts. /n Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
-
+  - role: C# Developer, DevOps, PM
+    time: 2021-2023
+    company: hoopsly.com (hypercasual games publisher)
+    details: "Based on an analytics team specification I have come up with an idea on howwe should build and automate the daily Extract-Transform-Load process.  Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).  Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.  Created app logging and server usage monitoring. Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app.  Visualised performance metrics in Data Studio, wrote documentation.  Created and operated mission critical everyday tool for a team of 50 producers and analysts.  Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
