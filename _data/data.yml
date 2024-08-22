@@ -6,7 +6,7 @@ contact:
   email: a.mart@e.email
   github:
   linkedin: Linkedin.com/in/andrei-martianov
-  phone:
+  phone: https://t.me/andrei_martianov
   gitlab:
   twitter:
 
@@ -45,7 +45,7 @@ bio: |
 experience:
   - role: C# Developer, DevOps, PM
     time: 2021-2023
-    company: hoopsly.com (hypercasual games publisher)
+    company: https://hoopsly.com/ (hypercasual games publisher)
     details: |
       Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
       Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
@@ -57,7 +57,7 @@ experience:
 
   - role: C# Developer, Unity3D Developer, Gamedesigner
     time: 2019-2021
-    company: 3d.ru (3d-printed hardware, VR and mobile prototypes)
+    company: https://3d.ru/ (3d-printed hardware, VR and mobile prototypes)
     details: |
       Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
       Version control: Git CLI, Git LFS, GitKraken, Sourcetree
@@ -74,24 +74,24 @@ experience:
 
   - role: Project manager
     time: 2016-2018
-    company: msk2048.ru (immersive theater, quest room)
+    company: https://msk2048.ru/ (immersive theater, quest room)
     details: |
       Making stuff operate smoothly.
 
   - role: Entrepreneur, PM, game designer, HR, marketer, jack of all trades
     time: 2014-2016
-    company: claustrophobia.com/moscow/kvest/filosofskij-kamen (quest game , escape room)
+    company: https://claustrophobia.com/moscow/kvest/filosofskij-kamen/ (quest game , escape room)
     details: |
       Inventing stuff from scratch.
 
   - role: System administrator, datacenter engineer
     time: 2011-2014
-    company: netorn.ru (ISP, Datacenter)
+    company: https://netorn.ru/ (ISP, Datacenter)
     details: |
       UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
 
   - role: Tech support, system administrator
     time: 2005-2011
-    company: cross-t.ru (ISP)
+    company: https://cross-t.ru/ (ISP)
     details: |
       FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
