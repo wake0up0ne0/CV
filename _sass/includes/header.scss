@@ -12,11 +12,6 @@
         width: 0;
         height: 0;
         display: none;
-        
-        // Ensure the checkbox is checked when page loads
-        &:checked {
-            display: block;
-        }
     }
     
     label {

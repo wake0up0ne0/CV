@@ -59,6 +59,22 @@ experience:
       - Created and operated mission critical everyday tool for a team of 50 producers and analysts.
       - Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman.
 
+experience:
+  - role: C# Developer, DevOps, PM
+    time: 2021-2023
+    company: (hypercasual games publisher)
+    link: hoopsly.com
+    details: |
+      - Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
+      - Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
+      - Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.
+      - Created app logging and server usage monitoring. 
+      - Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app.
+      - Visualised performance metrics in Data Studio, wrote documentation.
+      - Created and operated mission critical everyday tool for a team of 50 producers and analysts.
+      - Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman.
+
+
   - role: C# Developer, Unity3D Developer, Gamedesigner
     time: 2019-2021
     company: (3d-printed hardware, VR and mobile prototypes)
