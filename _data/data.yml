@@ -74,7 +74,9 @@ experience:
       - Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2, Certified in RobotStudio (ABB industrial robots IDE)
       - UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP
       - Project Management: Jira, Confluence, Trello
-      - Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend - high score tables dockerized NodeJs JSON API  (Strapi Headless CMS +MariaDB), Backups of all of the above with Duplicati
+      - Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend 
+      - High score tables: dockerized NodeJs JSON API  (Strapi Headless CMS +MariaDB), 
+      - Backups of all of the above with Duplicati
 
   - role: Project manager
     time: 2016-2018
