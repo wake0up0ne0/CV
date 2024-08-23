@@ -87,25 +87,25 @@ experience:
     company: (immersive theater, quest room)
     link: msk2048.ru
     details: Making stuff operate smoothly.
-    details-list: " "
+    details-list: ""
 
   - role: Entrepreneur, PM, game designer, HR, marketer, jack of all trades
     time: 2014-2016
     company: (quest game, escape room)
     link: claustrophobia.com/moscow/kvest/filosofskij-kamen
     details: Inventing stuff from scratch. Talking to people. Gamedesign.
-    details-list: " "
+    details-list: ""
 
   - role: System administrator, datacenter engineer
     time: 2011-2014
     company: (ISP, Datacenter)
     link: netorn.ru
     details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
-    details-list: " "
+    details-list: ""
 
   - role: Tech support, system administrator
     time: 2005-2011
     company: (ISP)
     link: cross-t.ru
     details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
-    details-list: " "
+    details-list: ""
