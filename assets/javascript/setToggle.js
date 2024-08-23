@@ -1,2 +1,2 @@
 var checkbox = document.querySelector('input[name=mode]')
-checkbox.checked = true
+checkbox.checked = "checked"
