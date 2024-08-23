@@ -49,7 +49,7 @@ experience:
     time: 2021-2023
     company: (hypercasual games publisher)
     link: hoopsly.com
-    details:
+    details: " "
     details-list: |
       - Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
       - Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
@@ -65,7 +65,7 @@ experience:
     time: 2019-2021
     company: (3d-printed hardware, VR and mobile prototypes)
     link: 3d.ru
-    details:
+    details: " "
     details-list: |
       - Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
       - Version control: Git CLI, Git LFS, GitKraken, Sourcetree
@@ -86,30 +86,26 @@ experience:
     time: 2016-2018
     company: (immersive theater, quest room)
     link: msk2048.ru
-    details: |
-      Making stuff operate smoothly.
-    details-list:
+    details: Making stuff operate smoothly.
+    details-list: " "
 
   - role: Entrepreneur, PM, game designer, HR, marketer, jack of all trades
     time: 2014-2016
     company: (quest game, escape room)
     link: claustrophobia.com/moscow/kvest/filosofskij-kamen
-    details: |
-      Inventing stuff from scratch. Talking to people. Gamedesign.
-    details-list:
+    details: Inventing stuff from scratch. Talking to people. Gamedesign.
+    details-list: " "
 
   - role: System administrator, datacenter engineer
     time: 2011-2014
     company: (ISP, Datacenter)
     link: netorn.ru
-    details: |
-      UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
-    details-list:
+    details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
+    details-list: " "
 
   - role: Tech support, system administrator
     time: 2005-2011
     company: (ISP)
     link: cross-t.ru
-    details: |
-      FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
-    details-list:
+    details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
+    details-list: " "
