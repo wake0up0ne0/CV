@@ -49,6 +49,7 @@ experience:
     time: 2021-2023
     company: (hypercasual games publisher)
     link: hoopsly.com
+    details:
     details-list: |
       - Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
       - Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
@@ -64,6 +65,7 @@ experience:
     time: 2019-2021
     company: (3d-printed hardware, VR and mobile prototypes)
     link: 3d.ru
+    details:
     details-list: |
       - Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
       - Version control: Git CLI, Git LFS, GitKraken, Sourcetree
