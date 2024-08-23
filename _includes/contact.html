@@ -46,5 +46,14 @@
         </a>
     </div>
     {% endif %}
+
+    {% if contact.telegram %}
+    <div class="contact-item">
+        <i data-feather="telegram"></i>
+        <a href="https://t.me/{{contact.telegram}}">
+            {{contact.telegram}}
+        </a>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
