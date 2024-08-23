@@ -50,7 +50,7 @@ experience:
     company: (hypercasual games publisher)
     link: hoopsly.com
     details: " "
-    details-list: |
+    details-list:
       - Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
       - Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
       - Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.
@@ -66,7 +66,7 @@ experience:
     company: (3d-printed hardware, VR and mobile prototypes)
     link: 3d.ru
     details: " "
-    details-list: |
+    details-list:
       - Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
       - Version control: Git CLI, Git LFS, GitKraken, Sourcetree
       - Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine
