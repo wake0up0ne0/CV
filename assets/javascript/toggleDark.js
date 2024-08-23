@@ -13,6 +13,5 @@ checkbox.addEventListener('change', function () {
         moon.innerHTML = feather.icons['moon'].toSvg({ 'fill': 'var(--fg-color-dark)' })
     }
 })
-window.onload() {
-    document.documentElement.setAttribute('data-theme', 'dark')
-}
+
+document.documentElement.setAttribute('data-theme', 'dark')
