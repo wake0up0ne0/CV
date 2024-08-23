@@ -1,1 +1,0 @@
-var checkbox = document.querySelector('input[name=mode]')
