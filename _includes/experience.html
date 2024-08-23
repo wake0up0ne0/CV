@@ -3,7 +3,7 @@
 <section class="experience">
     <h2 class="title">Experience</h2>
     {% for exp in experience %}
-    <div class="exp">
+    <div class="experience-item">
         <div class="role">
             {{exp.role}}
         </div>
@@ -13,19 +13,9 @@
             {{exp.company}}
             <span class="time">{{exp.time}}</span>
         </div>
-        <!-- {% if details %} -->
         <div class="details">{{exp.details | newline_to_br }}</div>
-        <!-- {% endif %} -->
-        <!-- {% if details-list %}
-        <ul class="details-list">
-            {% for list-item in exp.details-list%}
-            <li>
-                <div class="list-item">{{list-item}}</div>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %} -->
     </div>
+
     {% endfor %}
 </section>
 {% endif %}
