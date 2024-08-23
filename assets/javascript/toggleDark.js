@@ -1,5 +1,5 @@
 var checkbox = document.querySelector('input[name=mode]')
-checkbox.checked = true
+
 checkbox.addEventListener('change', function () {
     if (this.checked) {
         document.documentElement.setAttribute('data-theme', 'dark')
@@ -12,3 +12,4 @@ checkbox.addEventListener('change', function () {
     }
 })
 
+checkbox.checked = true
