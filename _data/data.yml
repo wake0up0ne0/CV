@@ -48,58 +48,58 @@ experience:
   - role: C# Developer, DevOps, PM
     time: 2021-2023
     company: (hypercasual games publisher)
-    link: hoopsly.com
+    link: https://hoopsly.com
     details: |
-      Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
-      Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
-      Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.
-      Created app logging and server usage monitoring. Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app.
-      Visualised performance metrics in Data Studio, wrote documentation.
-      Created and operated mission critical everyday tool for a team of 50 producers and analysts.
-      Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman.
+      - Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process.
+      - Developed in solo from scratch C# console app for importing analytics datafrom multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform).
+      - Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users.
+      - Created app logging and server usage monitoring. Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app.
+      - Visualised performance metrics in Data Studio, wrote documentation.
+      - Created and operated mission critical everyday tool for a team of 50 producers and analysts.
+      - Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman.
 
   - role: C# Developer, Unity3D Developer, Gamedesigner
     time: 2019-2021
     company: (3d-printed hardware, VR and mobile prototypes)
-    link: 3d.ru
+    link: https://3d.ru
     details: |
-      Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
-      Version control: Git CLI, Git LFS, GitKraken, Sourcetree
-      Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine
-      Multiplayer matchmaking and lobby: Photon Unity Networking
-      Editor: OpenUPM (alternative package manager), Odin Inspector, Custom editors
-      Level design: Archimatix, ProBuilder, ProGrid
-      AI: Behaviour Tree Designer, FSM (Finite State Machines)
-      External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code
-      Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2, Certified in RobotStudio (ABB industrial robots IDE)
-      UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP
-      Project Management: Jira, Confluence, Trello
-      Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend - high score tables dockerized NodeJs JSON API  (Strapi Headless CMS +MariaDB), Backups of all of the above with Duplicati
+      - Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects
+      - Version control: Git CLI, Git LFS, GitKraken, Sourcetree
+      - Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine
+      - Multiplayer matchmaking and lobby: Photon Unity Networking
+      - Editor: OpenUPM (alternative package manager), Odin Inspector, Custom editors
+      - Level design: Archimatix, ProBuilder, ProGrid
+      - AI: Behaviour Tree Designer, FSM (Finite State Machines)
+      - External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code
+      - Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2, Certified in RobotStudio (ABB industrial robots IDE)
+      - UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP
+      - Project Management: Jira, Confluence, Trello
+      - Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend - high score tables dockerized NodeJs JSON API  (Strapi Headless CMS +MariaDB), Backups of all of the above with Duplicati
 
   - role: Project manager
     time: 2016-2018
     company: (immersive theater, quest room)
-    link: msk2048.ru
+    link: https://msk2048.ru
     details: |
       Making stuff operate smoothly.
 
   - role: Entrepreneur, PM, game designer, HR, marketer, jack of all trades
     time: 2014-2016
     company: (quest game, escape room)
-    link: claustrophobia.com/moscow/kvest/filosofskij-kamen
+    link: https://claustrophobia.com/moscow/kvest/filosofskij-kamen
     details: |
       Inventing stuff from scratch. Talking to people. Gamedesign.
 
   - role: System administrator, datacenter engineer
     time: 2011-2014
     company: (ISP, Datacenter)
-    link: netorn.ru
+    link: https://netorn.ru
     details: |
       UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
 
   - role: Tech support, system administrator
     time: 2005-2011
     company: (ISP)
-    link: cross-t.ru
+    link: https://cross-t.ru
     details: |
       FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
