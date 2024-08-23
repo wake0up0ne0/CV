@@ -1,7 +1,7 @@
 .languages {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .idiom {
         @include body-text;

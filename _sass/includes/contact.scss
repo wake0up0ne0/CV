@@ -1,7 +1,7 @@
 .contact {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .contact-item {
         display: flex;
