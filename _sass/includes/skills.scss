@@ -4,7 +4,7 @@
 
     .title {
         margin-top: 20px;
-        @include sub-header;
+        @include header;
     }
     .skill {
         @include body-text;
