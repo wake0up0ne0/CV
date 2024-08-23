@@ -2,23 +2,23 @@
 {% if experience %}
 <section class="experience">
     <h2 class="title">Experience</h2>
-    {% for job in experience %}
-    <div class="job">
+    {% for exp in experience %}
+    <div class="exp">
         <div class="role">
-            {{job.role}}
+            {{exp.role}}
         </div>
         <div class="company">
-            <a href="//{{job.link}}">{{job.link}}</a>
+            <a href="//{{exp.link}}">{{exp.link}}</a>
             &nbsp;
-            {{job.company}}
-            <span class="time">{{job.time}}</span>
+            {{exp.company}}
+            <span class="time">{{exp.time}}</span>
         </div>
         {% if details %}
-        <div class="details">{{job.details | newline_to_br }}</div>
+        <div class="details">{{exp.details | newline_to_br }}</div>
         {% endif %}
         <!-- {% if details-list %}
         <ul class="details-list">
-            {% for list-item in job.details-list%}
+            {% for list-item in exp.details-list%}
             <li>
                 <div class="list-item">{{list-item}}</div>
             </li>
