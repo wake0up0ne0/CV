@@ -33,10 +33,13 @@ languages:
   - idiom: Russian - Native
 
 education:
+  - degree: , Certificate in RobotStudio
+    time: 2020
+    university: ABB industrial robots IDE
+    
   - degree: Bachelor's degree in "Informatics in metrology and quality management"
     time: 2003-2008
     university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
-
 bio: |
   Looking for Software Engineer job. 
   I have 17 years in IT and management:
@@ -75,7 +78,7 @@ experience:
       - "Level design: Archimatix, ProBuilder, ProGrid"
       - "AI: Behaviour Tree Designer, FSM (Finite State Machines)"
       - "External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code"
-      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2, Certified in RobotStudio (ABB industrial robots IDE)"
+      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2."
       - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
       - "Project Management: Jira, Confluence, Trello"
       - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
