@@ -67,7 +67,7 @@ experience:
     link: 3d.ru
     details: " "
     details-list:
-      - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases),Profiler, Scriptable objects"
+      - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases), Profiler, Scriptable objects"
       - "Version control: Git CLI, Git LFS, GitKraken, Sourcetree"
       - "Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine"
       - "Multiplayer matchmaking and lobby: Photon Unity Networking"
@@ -79,7 +79,7 @@ experience:
       - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
       - "Project Management: Jira, Confluence, Trello"
       - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
-      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB), 
+      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)" 
       - "Backups of all of the above with Duplicati"
 
   - role: Project manager
