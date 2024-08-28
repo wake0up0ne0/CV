@@ -36,6 +36,7 @@ li::marker {
 }
 
 
+
 /* Basic tooltip styling */
 [data-tooltip] {
     position: relative;
@@ -54,7 +55,7 @@ li::marker {
 
 /* Tooltip arrow */
 [data-tooltip]::before {
-    bottom: calc(100% + 5px); /* Position the tooltip above the element */
+    bottom: calc(100% + 5px); /* Position the tooltip below the element */
     left: 50%;
     transform: translateX(-50%);
     content: attr(data-tooltip);
@@ -72,12 +73,12 @@ li::marker {
 
 /* Tooltip text */
 [data-tooltip]::after {
-    bottom: calc(100% + 5px); /* Position the tooltip above the element */
+    bottom: calc(100% + 5px); /* Position the tooltip below the element */
     left: 50%;
     transform: translateX(-50%);
     content: '';
     border: 5px solid transparent;
-    border-top-color: black;
+    border-bottom-color: black; /* Change to bottom-color for arrow pointing down */
 }
 
 /* Show tooltip on hover */
