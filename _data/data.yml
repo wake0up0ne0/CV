@@ -6,10 +6,11 @@ contact:
   email: a.mart@e.email
   github:
   linkedin: andrei-martianov
-  phone: 
+  phone:
   gitlab:
   twitter:
   telegram: andrei_martianov
+  download: "/download/CV-Andrei-Martianov.mhtml"
 
 skills:
   - category: Hard
@@ -36,7 +37,7 @@ education:
   - degree: Certificate in RobotStudio
     time: 2020
     university: ABB industrial robots IDE
-    
+
   - degree: Bachelor's degree in "Informatics in metrology and quality management"
     time: 2003-2008
     university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
@@ -64,7 +65,6 @@ experience:
       - "Created and operated mission critical everyday tool for a team of 50 producers and analysts."
       - "Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
 
-
   - role: C# Developer, Unity3D Developer, Gamedesigner
     time: 2019-2021
     company: (3d-printed hardware, VR and mobile prototypes)
@@ -83,7 +83,7 @@ experience:
       - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
       - "Project Management: Jira, Confluence, Trello"
       - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
-      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)" 
+      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)"
       - "Backups of all of the above with Duplicati"
 
   - role: Project manager

@@ -55,5 +55,14 @@
         </a>
     </div>
     {% endif %}
+
+    {% if contact.download %}
+    <div class="contact-item">
+        <i data-feather="download"></i>
+        <a href="{{contact.download}}">
+            Download this CV as a file
+        </a>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
