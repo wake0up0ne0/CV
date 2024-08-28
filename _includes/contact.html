@@ -58,7 +58,7 @@
     {% endif %}
 
     {% if contact.download %}
-    <div class="contact-item">
+    <div class="contact-item" data-tooltip="Or just press Ctrl+S">
         <i data-feather="download"></i>
         <a class="save" href="{{url}}{{contact.download}}" download >
             Download this CV as a file
