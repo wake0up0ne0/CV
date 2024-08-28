@@ -1,5 +1,4 @@
 {% assign contact = site.data.data.contact %}
-{% assign url = site.data.config.url %}
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
@@ -60,7 +59,7 @@
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
-        <a class="save" href="{{url}}{{contact.download}}" download  data-tooltip="Or just press Ctrl+S">
+        <a class="save" href="{{contact.download}}" download  data-tooltip="Or just press Ctrl+S">
             Download this CV as a file
         </a>
     </div>
