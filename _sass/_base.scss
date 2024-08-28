@@ -53,9 +53,9 @@ li::marker {
     z-index: 1000; /* Ensure tooltip appears above other content */
 }
 
-/* Tooltip arrow */
+/* Tooltip  text */
 [data-tooltip]::before {
-    bottom: calc(100% + 5px); /* Try using this first, if it doesn't work, simplify further below */
+    bottom: calc(100% + 5px);
     left: 50%;
     transform: translateX(-50%);
     content: attr(data-tooltip);
@@ -71,9 +71,9 @@ li::marker {
     text-overflow: ellipsis; /* Add an ellipsis (...) for long text */
 }
 
-/* Tooltip text */
+/* Tooltip  arrow */
 [data-tooltip]::after {
-    bottom: calc(100% + 5px); /* Try using this first, if it doesn't work, simplify further below */
+    top: calc(100%);
     left: 50%;
     transform: translateX(-50%);
     content: '';
