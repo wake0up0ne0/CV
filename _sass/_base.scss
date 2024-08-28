@@ -34,3 +34,55 @@ li::marker {
         }
     }
 }
+
+
+/* Basic tooltip styling */
+[data-tooltip] {
+    position: relative;
+    display: inline-block;
+}
+
+[data-tooltip]::before,
+[data-tooltip]::after {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    z-index: 1000; /* Ensure tooltip appears above other content */
+}
+
+/* Tooltip arrow */
+[data-tooltip]::before {
+    bottom: calc(100% + 5px); /* Position the tooltip above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    content: attr(data-tooltip);
+    background: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    width: max-content; /* Allow tooltip to expand with content */
+    max-width: 200px; /* Set a maximum width for longer text */
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    text-overflow: ellipsis; /* Add an ellipsis (...) for long text */
+}
+
+/* Tooltip text */
+[data-tooltip]::after {
+    bottom: calc(100% + 5px); /* Position the tooltip above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    border: 5px solid transparent;
+    border-top-color: black;
+}
+
+/* Show tooltip on hover */
+[data-tooltip]:hover::before,
+[data-tooltip]:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
