@@ -22,7 +22,6 @@
             }
             save {
                 &:hover {
-                    text-decoration: underline;
                     content: "Or just press Ctrl+S"; /* Text of the tooltip */
                     position: absolute;
                     top: 120%; /* Position it below the link */
