@@ -18,27 +18,25 @@
             @include body-text;
             &:hover {
                 text-decoration: underline;
+
+            }
+            download {
+                &:hover {
+                    text-decoration: underline;
+                    content: "Or just press Ctrl+S"; /* Text of the tooltip */
+                    position: absolute;
+                    top: 120%; /* Position it below the link */
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: black;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    visibility: visible;
+                    opacity: 0;
+                    transition: opacity 0.3s, visibility 0.3s;
+                }
             }
         }
     }
-    .contact .contact-item a.download::after {
-        content: "Or just press Ctrl+S"; /* Text of the tooltip */
-        position: absolute;
-        top: 120%; /* Position it below the link */
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: black;
-        color: white;
-        padding: 4px 8px;
-        border-radius: 4px;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.3s, visibility 0.3s;
-    }
-    
-    .contact .contact-item a.download:hover::after {
-        visibility: visible;
-        opacity: 1;
-    }
-
 }
