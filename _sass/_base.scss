@@ -55,7 +55,7 @@ li::marker {
 
 /* Tooltip arrow */
 [data-tooltip]::before {
-    bottom: calc(100% + 5px); /* Position the tooltip below the element */
+    bottom: calc(100% + 5px); /* Try using this first, if it doesn't work, simplify further below */
     left: 50%;
     transform: translateX(-50%);
     content: attr(data-tooltip);
@@ -73,12 +73,12 @@ li::marker {
 
 /* Tooltip text */
 [data-tooltip]::after {
-    bottom: calc(100% + 5px); /* Position the tooltip below the element */
+    bottom: calc(100% + 5px); /* Try using this first, if it doesn't work, simplify further below */
     left: 50%;
     transform: translateX(-50%);
     content: '';
     border: 5px solid transparent;
-    border-bottom-color: black; /* Change to bottom-color for arrow pointing down */
+    border-bottom-color: black; /* Change to bottom-color for arrow pointing dow
 }
 
 /* Show tooltip on hover */
