@@ -73,7 +73,6 @@ li::marker {
 
 /* Tooltip  arrow */
 [data-tooltip]::after {
-    top: calc(100% + 15px);
     left: 50%;
     transform: translateX(-50%);
     content: '';
