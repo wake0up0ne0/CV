@@ -64,11 +64,11 @@ li::marker {
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 12px;
-    width: max-content; /* Allow tooltip to expand with content */
-    max-width: 200px; /* Set a maximum width for longer text */
-    overflow: hidden; /* Hide overflowing text */
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
-    text-overflow: ellipsis; /* Add an ellipsis (...) for long text */
+    width: max-content;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 /* Tooltip  arrow */
