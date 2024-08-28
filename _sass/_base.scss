@@ -55,7 +55,7 @@ li::marker {
 
 /* Tooltip arrow */
 [data-tooltip]::before {
-    bottom: calc(100% + 5px); /* Position the tooltip below the element */
+    bottom: auto; /* Position the tooltip below the element */
     left: 50%;
     transform: translateX(-50%);
     content: attr(data-tooltip);
