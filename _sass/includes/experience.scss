@@ -12,7 +12,7 @@
         .company {
             @include body-text;
             font-weight: bold;
-            color: CED1F7;
+            color: #CED1F7;
             .time {
                 float: right;
                 color: var(--fg-color-title-sm);
