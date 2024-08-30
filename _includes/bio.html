@@ -1,0 +1,7 @@
+{% assign bio = site.data.data.bio %}
+{% if bio %}
+<section class="bio">
+    <h2 class="title">Bio</h2>
+    <div class="details">{{ bio | newline_to_br }}</div>
+</section>
+{% endif %}

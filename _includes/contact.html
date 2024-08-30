@@ -3,57 +3,75 @@
 <section class="contact">
     <div class="title">Contact</div>
     {% if contact.email %}
-        <div class="contact-item">
-            <i data-feather="mail"></i>
-            <a href="#">
-                {{contact.email}}
-            </a>
-        </div>
+    <div class="contact-item">
+        <i data-feather="mail"></i>
+        <a href="mailto:{{contact.email}}">
+            {{contact.email}}
+        </a>
+    </div>
     {% endif %}
 
     {% if contact.phone %}
-        <div class="contact-item">
-            <i data-feather="phone"></i>
-            <a href="#">
-                {{contact.phone}}
-            </a>
-        </div>
+    <div class="contact-item">
+        <i data-feather="phone"></i>
+        <a href="#">
+            {{contact.phone}}
+        </a>
+    </div>
     {% endif %}
 
     {% if contact.github %}
-        <div class="contact-item">
-            <i data-feather="github"></i>
-            <a href="https://github.com/{{contact.github}}">
-                {{contact.github}}
-            </a>
-        </div>
+    <div class="contact-item">
+        <i data-feather="github"></i>
+        <a href="https://github.com/{{contact.github}}">
+            {{contact.github}}
+        </a>
+    </div>
     {% endif %}
 
     {% if contact.linkedin %}
-        <div class="contact-item">
-            <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/{{contact.linkedin}}">
-                {{contact.linkedin}}
-            </a>
-        </div>
-    {% endif %}
-
-    {% if contact.twitter %}
-        <div class="contact-item">
-            <i data-feather="twitter"></i>
-            <a href="https://twitter.com/{{contact.twitter}}">
-                {{contact.twitter}}
-            </a>
-        </div>
+    <div class="contact-item">
+        <i data-feather="linkedin"></i>
+        <a href="https://linkedin.com/in/{{contact.linkedin}}">
+            {{contact.linkedin}}
+        </a>
+    </div>
     {% endif %}
 
     {% if contact.gitlab %}
-        <div class="contact-item">
-            <i data-feather="gitlab"></i>
-            <a href="https://gitlab.com/{{contact.gitlab}}">
-                {{contact.gitlab}}
-            </a>
-        </div>
+    <div class="contact-item">
+        <i data-feather="gitlab"></i>
+        <a href="https://gitlab.com/{{contact.gitlab}}">
+            {{contact.gitlab}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.telegram %}
+    <div class="contact-item">
+        <i data-feather="send"></i>
+        <a href="https://t.me/{{contact.telegram}}">
+            {{contact.telegram}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.download %}
+    <div class="contact-item">
+        <i data-feather="download"></i>
+        <a class="save" href="{{contact.download}}" download  data-tooltip="Or just press Ctrl+S">
+            Download this CV as a file
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.fork %}
+    <div class="contact-item">
+        <i data-feather="copy"></i>
+        <a href="{{contact.fork}}">
+            Fork this CV
+        </a>
+    </div>
     {% endif %}
 </section>
 {% endif %}

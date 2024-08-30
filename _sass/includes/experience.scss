@@ -1,8 +1,11 @@
-.experiance {
+.experience {
     .title {
         @include header;
     }
     .experience-item {
+        margin-top: 15px;
+        margin-bottom: 25px;
+
         .role {
             @include sub-header;
         }
@@ -18,7 +21,7 @@
         .details {
             @include body-text;
         }
-        .technologies {
+        .details-list {
             @include body-text;
         }
     }

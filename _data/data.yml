@@ -1,108 +1,121 @@
-name: John Doe
+name: Hey, I am Andrei Martianov!
 support_dark_mode: true
 fork: true
 
-# Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
-
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
-
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  email: a.mart@e.email
+  github:
+  linkedin: andrei-martianov
+  phone:
+  gitlab:
+  twitter:
+  telegram: andrei_martianov
+  download: "https://drive.google.com/drive/folders/1b-6NU9WEjZQBxdjerfuZSW-CgejQdITz"
+  fork: https://github.com/wake0up0ne0/CV
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
+  - category: Hard
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - C# and Unity3D (VR, Android, iOS)
+      - Gitlab, Linux, infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
+      - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
+
+  - category: Soft
     skill:
-      - Docker
-      - Kubernetes 
+      - Keep calm & carry on
+      - Always learn and share knowledge. Can't ignore a good question
+      - Cat-like curiosity. New framework? Let's go!
+      - Teamplayer or self-sufficient solo, depending on the situation
+      - Translator between tech and business people. Building bridges between worlds
+      - Believe it or not, I like refactoring
 
-# Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+languages:
+  - idiom: English - C2
+  - idiom: Spanish - B2
+  - idiom: Russian - Native
 
-# Experience
+education:
+  - degree: Certificate in RobotStudio
+    time: 2020
+    university: ABB industrial robots IDE
+
+  - degree: Bachelor's degree in "Informatics in metrology and quality management"
+    time: 2003-2008
+    university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
+
+bio: |
+  Looking for Software Engineer job. 
+  I have 17 years in IT and management:
+   programming - 5y 
+   project management - 4y
+   system administration - 8y
+
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+  - role: C# Developer, DevOps, PM
+    time: 2021-2023
+    company: (hypercasual games publisher)
+    link: hoopsly.com
+    details: ""
+    details-list:
+      - "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process."
+      - "Developed in solo from scratch C# console app for importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform)."
+      - "Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users."
+      - "Created app logging and server usage monitoring. "
+      - "Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app."
+      - "Visualised performance metrics in Data Studio, wrote documentation."
+      - "Created and operated mission critical everyday tool for a team of 50 producers and analysts."
+      - "Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - role: C# Developer, Unity3D Developer, Gamedesigner
+    time: 2019-2021
+    company: (3d-printed hardware, VR and mobile prototypes)
+    link: 3d.ru
+    details: ""
+    details-list:
+      - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases), Profiler, Scriptable objects"
+      - "Version control: Git CLI, Git LFS, GitKraken, Sourcetree"
+      - "Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine"
+      - "Multiplayer matchmaking and lobby: Photon Unity Networking"
+      - "Editor: OpenUPM (alternative package manager), Odin Inspector, Custom editors"
+      - "Level design: Archimatix, ProBuilder, ProGrid"
+      - "AI: Behaviour Tree Designer, FSM (Finite State Machines)"
+      - "External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code"
+      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2."
+      - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
+      - "Project Management: Jira, Confluence, Trello"
+      - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
+      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)"
+      - "Backups of all of the above with Duplicati"
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - role: Project manager
+    time: 2016-2018
+    company: (immersive theater, quest room)
+    link: msk2048.ru
+    details: Making stuff operate smoothly. Optimizing routines. Extinguishing fires.
+    details-list: ""
 
-projects:
-  - title: Cool Project 
-    link: #
+  - role: Entrepreneur, PM, gamedesigner, HR, marketer, jack of all trades
+    time: 2014-2016
+    company: (quest game, escape room)
+    link: claustrophobia.com/moscow/kvest/filosofskij-kamen
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Inventing stuff from scratch, BizDev, CusDev, talking to people, game balance, talents, construction, advertising, making sure bathroom is perfect.
+      Won "Quest of the year 2016" 
+      Tons of 10/10 from players. 
+      This project is an achievement I am really proud of. 
+      Check photos, link above.
+    details-list: ""
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+  - role: System administrator, datacenter engineer
+    time: 2011-2014
+    company: (ISP, Datacenter)
+    link: netorn.ru
+    details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
+    details-list: ""
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - role: Tech support, system administrator
+    time: 2005-2011
+    company: (ISP)
+    link: cross-t.ru
+    details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
+    details-list: ""
