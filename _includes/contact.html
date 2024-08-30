@@ -73,5 +73,14 @@
         </a>
     </div>
     {% endif %}
+    
+    {% if contact.online %}
+    <div class="contact-item">
+        <i data-feather="online"></i>
+        <a href="{{contact.online}}">
+            This CV online
+        </a>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
