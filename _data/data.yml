@@ -61,8 +61,8 @@ experience:
     details: ""
     details-list:
       - "Created and operated mission critical everyday tool for a team of 50 producers and analysts."
-      - "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily Extract-Transform-Load process."
-      - "Developed in solo from scratch C# console app for importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads -> Big Query, S3 buckets at GCP (Google Cloud Platform)."
+      - "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily ETL (Extract-Transform-Load process)."
+      - "Developed in solo from scratch C# console app for importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads to Big Query, S3 buckets at GCP (Google Cloud Platform)."
       - "Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users."
       - "Created app logging and server usage monitoring. "
       - "Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app."
