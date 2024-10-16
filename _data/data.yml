@@ -2,14 +2,15 @@ name: Hey, I am Andrei Martianov!
 support_dark_mode: true
 fork: true
 
+
 contact:
-  email: martianov.andrei9000@gmail.com
   github:
+  telegram: andrei_martianov
   linkedin: andrei-martianov
+  email: martianov.andrei9000@gmail.com
   phone:
   gitlab:
   twitter:
-  telegram: andrei_martianov
   download: "https://drive.google.com/drive/folders/1-0-Rk_sODo3w_cfCpEayWG_Tm-e7Em3Q"
   online: https://cv.anmart.site
   fork: https://github.com/wake0up0ne0/CV

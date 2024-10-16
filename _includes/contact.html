@@ -2,14 +2,6 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
-    {% if contact.email %}
-    <div class="contact-item">
-        <i data-feather="mail"></i>
-        <a href="mailto:{{contact.email}}">
-            {{contact.email}}
-        </a>
-    </div>
-    {% endif %}
 
     {% if contact.phone %}
     <div class="contact-item">
@@ -34,6 +26,15 @@
         <i data-feather="linkedin"></i>
         <a href="https://linkedin.com/in/{{contact.linkedin}}">
             {{contact.linkedin}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.email %}
+    <div class="contact-item">
+        <i data-feather="mail"></i>
+        <a href="mailto:{{contact.email}}">
+            {{contact.email}}
         </a>
     </div>
     {% endif %}
@@ -78,7 +79,7 @@
     <div class="contact-item">
         <i data-feather="copy"></i>
         <a href="{{contact.fork}}">
-            Fork this CV : {{contact.fork}}
+            Fork this CV
         </a>
     </div>
     {% endif %}
