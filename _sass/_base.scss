@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-cv); /* Changed from var(--bg-color) for consistent appearance */
 }
 li::marker {
     font-size: 0.5rem;
@@ -16,7 +16,7 @@ li::marker {
     min-height: 900px;
     margin: 0 auto;
     background-color: var(--bg-color-cv);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: none; /* Removed box shadow for a cleaner look */
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -25,13 +25,7 @@ li::marker {
         width: 90%;
         margin: 0 auto;
         padding: 20px;
-        display: grid;
-        grid-template-columns: 2fr 5fr;
-
-        .sidebar {
-            margin-right: 20px;
-
-        }
+        display: block; /* Single column layout */
     }
 }
 
