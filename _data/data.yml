@@ -14,22 +14,21 @@ contact:
   online: https://cv.anmart.site
   fork: https://github.com/wake0up0ne0/CV
 
-skills:
-  - category: Hard
-    skill:
-      - C# and Unity3D (VR, Android, iOS)
-      - Gitlab, Linux, infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
-      - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
+hardskills:
+  skill:
+    - C# and Unity3D (VR, Android, iOS)
+    - Gitlab, Linux, infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
+    - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
 
-  - category: Soft
-    skill:
-      - Keep calm & carry on
-      - Always learn and share knowledge. Can't ignore a good question
-      - Cat-like curiosity. New framework? Let's go!
-      - Teamplayer or self-directed solo, depending on the situation
-      - Translator between tech and business people. Building bridges between worlds
-      - Asynchrohous communication advocate
-      - Believe it or not, I like refactoring
+softskills:
+  skill:
+    - Keep calm & carry on
+    - Always learn and share knowledge. Can't ignore a good question
+    - Cat-like curiosity. New framework? Let's go!
+    - Teamplayer or self-directed solo, depending on the situation
+    - Translator between tech and business people. Building bridges between worlds
+    - Asynchrohous communication advocate
+    - Believe it or not, I like refactoring
 
 languages:
   - idiom: English - C2
