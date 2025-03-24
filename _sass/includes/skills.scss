@@ -6,11 +6,12 @@
         margin-top: 20px;
         @include header;
     }
-    .skill {
-        @include body-text;
-    }
+
     .skill-list {
         @include body-text;
         padding-inline-start: 16px;
+        .skill {
+            @include body-text;
+        }
     }
 }
