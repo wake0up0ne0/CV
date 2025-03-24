@@ -4,6 +4,7 @@
     <h2 class="title">Experience</h2>
     {% for job in experience %}
     <div class="experience-item">
+        <div class="time">{{job.time}}</div>
         <div class="role">
             {{job.role}}
         </div>
@@ -11,7 +12,6 @@
             <a class="joblink" href="//{{job.link}}">{{job.link}}</a>
             &nbsp;
             {{job.company}}
-            <span class="time">{{job.time}}</span>
         </div>
         <div class="details">{{job.details | newline_to_br }}</div>
         <ul class="details-list">
