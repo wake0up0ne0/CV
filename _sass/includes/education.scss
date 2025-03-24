@@ -6,7 +6,7 @@
     .education-item {
         margin-bottom: 20px;
         .degree {
-            @include body-text;
+            @include sub-header;
         }
         .university {
             @include body-text;

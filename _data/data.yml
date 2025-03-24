@@ -55,9 +55,9 @@ bio: |
 experience:
   - role: DevOps
     time: 2023-2025
-    company: NDA
+    company: NDA-organization
     link:
-    details: Infrastructure, AI, Blockchain, R&D
+    details: Responsibilities : DevOps, Infrastructure, AI, Blockchain, R&D
     details-list: ""
 
   - role: C# Developer, DevOps, PM
