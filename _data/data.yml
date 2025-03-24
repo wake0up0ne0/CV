@@ -46,12 +46,20 @@ education:
     university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
 
 bio: |
-  Looking for Software Engineer job. I have 17 years in IT and management:
+  Looking for Software Engineer job. I have 20 years in IT and management:
+    3y - DevOps
     5y - programming
     4y - project management
     8y - system administration
 
 experience:
+  - role: DevOps
+    time: 2023-2025
+    company: NDA
+    link:
+    details: Infrastructure, AI, Blockchain, R&D
+    details-list: ""
+
   - role: C# Developer, DevOps, PM
     time: 2021-2023
     company: (hypercasual games publisher)
