@@ -15,10 +15,10 @@
             .joblink {
                 color: #3282b8;
             }
-            .time {
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
-            }
+        }
+        .time {
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
         }
         .details {
             @include body-text;

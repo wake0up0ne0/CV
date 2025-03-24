@@ -13,6 +13,8 @@
         }
         .time {
             @include body-text;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
         }
     }
 }
