@@ -2,7 +2,6 @@ name: Hey, I am Andrei Martianov!
 support_dark_mode: true
 fork: true
 
-
 contact:
   github:
   telegram: andrei_martianov
@@ -14,7 +13,6 @@ contact:
   download: "https://drive.google.com/drive/folders/1-6zNBYHmLXd1ScKEO2vAXEL0MksL21sg"
   online: https://cv.anmart.site
   fork: https://github.com/wake0up0ne0/CV
-
 
 skills:
   - category: Hard
@@ -48,8 +46,7 @@ education:
     university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
 
 bio: |
-  Looking for Software Engineer job. 
-  I have 17 years in IT and management:
+  Looking for Software Engineer job. I have 17 years in IT and management:
     5y - programming
     4y - project management
     8y - system administration
