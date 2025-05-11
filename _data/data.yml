@@ -4,17 +4,20 @@ contact:
   github: nikitagetrov
   telegram: Kitman331
   linkedin:
-  email: nikitagetrov@gmail.com
+  email: nikitagetrov@gmail.com (preferred)
   phone: +54 (11) 26524802
   gitlab:
   twitter:
   download:
   online:
   fork:
+        - Location: UTC +3
+  - Willing to relocate or travel
+
 
 hardskills:
   skill:
-    - JavaScript, TypeScript, HTML, CSS, React, Vue.js, Next.js
+    - JavaScript, TypeScript, HTML, CSS, React, Next.js
     - Three.js, BEM, Frontend, Cross-browser compatibility
     - C#, .NET Core, OOP, SOLID
     - Git, Node.js, REST API, JSON API
@@ -28,21 +31,26 @@ softskills:
     - Ability to work under pressure
     - Self-directed problem solving
     - Effective use of search engines and AI tools
+    - Master Of Sports in cycling
+    - Driver's license: Category B
 
 languages:
-  - idiom: Russian - Native
   - idiom: English - B1
+  - idiom: Spanish - A2
+  - idiom: Chuvash - Native
+  - idiom: Russian - Native
 
 education:
   - degree:
     time: 2014
-    university: ГБОУШИОР
+    university: Goshior
 
 bio: |
-  Looking for a Frontend Developer position. I have nearly 3 years in IT:
-    2.5y - Frontend development
-    Experience with pet projects and freelancing
-    Background in Unity/C# game development
+  Looking for a Frontend Developer position. 
+  I have 3 years in :
+  - Frontend, Js, React
+  - Unity/C# game development
+  - Database
 
 experience:
   - role: Freelancer
@@ -64,9 +72,5 @@ experience:
       - "Experience with React and practical application of this framework"
       - "Unity game development using C# (pet projects)"
 
-additional:
-  - Driver's license: Category B
-  - Location: Argentina (Russian citizenship)
-  - Work permit: Russia, Kyrgyzstan
-  - Willing to relocate or travel
-  - Preferred contact: Email
+
+
