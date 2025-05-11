@@ -3,7 +3,7 @@ This repo is forked from [original](https://github.com/stavrospanakakis/jekyll-c
 
 # CV jekyll theme
 
-Free theme for the creation of your CV. View demo [here](https://cv.anmart.site/).
+Free theme for the creation of your CV. View demo [here](https://nikitagetrov.github.io/CV/).
 
 ## Features
 - Lightweight
