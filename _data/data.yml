@@ -2,7 +2,7 @@ name: Andrei Martianov
 name-in-cyrillic : Андрей Мартьянов
 
 preferences:
-  personal-stopwords: ["руководитель", "manager", "менеджер", "lead", "teamlead", "тимлид", "тестировщик", "тестированию","тестер","tester", "архитектор", "architect", "артист", "artist", "аналитик", "analyst", "PHP", "Angular", "flutter", "kotlin", "Python", "javascript", "Java", "rust","Rust", "oracle", "c++","С++""Laravel", "lua", "stm", "qa", "elixir", "1c", "Node.js", "NodeJS","nestjs","Next.js", "Firebase", "Кликхаус", "clickhouse", "aso", "ruby", "postgresql", "mssql", "HTMX", "Helix", "Cyber", "SQL", "Delphi", "Vue", "ColdFusion","Odoo", "Frontend", "Power Platform", "Unreal", "Roblox", "elma", "bpmsoft", "lua", "С-разработчик", "go разработчик", "golang", "frontend", "фронтенд", "фронтэнд"]
+  personal-stopwords: ["руководитель", "manager", "менеджер", "lead", "teamlead", "тимлид", "тестировщик", "тестированию","тестер","tester", "архитектор", "architect", "артист", "artist", "аналитик", "analyst", "PHP", "Angular", "flutter", "kotlin", "Python", "javascript", "Java", "rust","Rust", "oracle", "c++","С++","Laravel", "lua", "stm", "qa", "elixir", "1c", "Node.js", "NodeJS","nestjs","Next.js", "Firebase", "Кликхаус", "clickhouse", "aso", "ruby", "postgresql", "mssql", "HTMX", "Helix", "Cyber", "SQL", "Delphi", "Vue", "ColdFusion","Odoo", "Frontend", "Power Platform", "Unreal", "Roblox", "elma", "bpmsoft", "lua", "С-разработчик", "go разработчик", "golang", "frontend", "фронтенд", "фронтэнд"]
   universal-stopwords: ["наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"]
   interested-to-work-remotely : yes   
   interested-to-work-in-office : no
