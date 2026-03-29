@@ -1,66 +1,132 @@
-name: AT_LEAST_ONE
-name-in-cyrillic : AT_LEAST_ONE
-
-stopwords:
-  personal-stopwords: LIST | AI_DERIVED
-  universal-stopwords: ["наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"]
-
-preferences:
-
-  interested-to-work-remotely : AT_LEAST_ONE
-  interested-to-work-in-office : AT_LEAST_ONE
-  interested-to-work-in-hybrid-office-and-remote : AI_DERIVED
-  
-  interested-to-work-as-private-contractor: DEFAULT:unspecified
-  interested-to-work-as-individual-enterpreneur: DEFAULT:unspecified
-  
-  interested-to-work-fulltime : DEFAULT:yes
-  interested-to-work-parttime : DEFAULT:yes
-  agree-to-solve-test-task : DEFAULT:no
-  willing-to-relocate : DEFAULT:no
-  can-relocate : DEFAULT:no
-  agree-to-work-from-russia-territory: DEFAULT:no
-  agree-to-work-outside-of-russia-territory: DEFAULT:yes
-  desired-salary: DEFAULT:unspecified
-  available-for-business-trips: DEFAULT:no
-  applicant-timezone: DEFAULT:unspecified
-  applicant-location: DEFAULT:unspecified
+name: Andrei Martianov
+name-in-cyrillic : Андрей Мартьянов
 
 contact:
-  github: FILLED_NEXT_STEP
-  telegram: FILLED_NEXT_STEP
-  linkedin: FILLED_NEXT_STEP
-  email: FILLED_NEXT_STEP
-  phone: FILLED_NEXT_STEP
-  download: FILLED_NEXT_STEP
-  online: FILLED_NEXT_STEP
-  calendar: FILLED_NEXT_STEP
-  print: FILLED_NEXT_STEP 
+  github:
+  telegram: andrei_martianov
+  linkedin: andrei-martianov
+  email: martianov.andrei9000@gmail.com
+  phone:
+  gitlab:
+  twitter:
+  download: "https://drive.google.com/drive/folders/10io0SoCVu6GVkllFQoewCRyFR5bkvbfY"
+  online: https://cv.an-mart.com/
+  calendar: https://calendly.com/martianov-andrei
+  print: Print this page 
+  timezone: utc-3
 
 hardskills:
   skill:
-    - LIST_NEWLINE
+    - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V
+    - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
+    - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
+    - Python, blockchain, GoLang, Java, PHP
+    - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
+    - LLM, RAG, N8N, Agents
+    - Claude Code, MCP, Gemini CLI, Ollama, OpenCode, VsCode Continue,  Cline
 
 softskills:
   skill:
-    - LIST_NEWLINE | AI_DERIVED
+    - Keep calm & carry on
+    - Always learn and share knowledge. Can't ignore a good question
+    - Cat-like curiosity. New framework? Let's go!
+    - Teamplayer or self-directed solo, depending on the situation
+    - Translator between tech and business people. Building bridges between worlds
+    - Asynchrohous communication advocate
+    - Believe it or not, I like refactoring
 
 languages:
-  - idiom: LIST_NEWLINE | AI_DERIVED
+  - idiom: English - C2
+  - idiom: Spanish - B2
+  - idiom: Russian - Native
 
 education:
-  - degree: LIST_BLOCK | GROUP | DEFAULT:unspecified
-    time: 
-    university: 
+  - degree: Certificate in RobotStudio
+    time: 2020
+    university: ABB industrial robots IDE
+
+  - degree: Bachelor's degree in "Informatics in metrology and quality management"
+    time: 2003-2008
+    university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
 
 bio: |
-  AI_DERIVED
+  Looking for Software Engineer job. I have 20 years in IT and management:
+    3y - DevOps
+    5y - C# programming
+    4y - project management
+    8y - system administration
 
 experience:
-  - role: LIST_BLOCK | GROUP | DEFAULT:unspecified
-    time: 
-    company: 
-    details: 
+  - role: DevOps
+    time: 2023-2025
+    company: NDA-organization
+    link:
+    details: R&D, AI, Blockchain and all sorts of Rock`n`Roll.
+    details-list: ""
+
+  - role: C# Developer, DevOps, PM
+    time: 2021-2023
+    company: hoopsly (hypercasual games publisher)
+    details: ""
     details-list:
-      - 
-      -
+      - "Created and operated mission critical everyday tool for a team of 50 producers and analysts."
+      - "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily ETL (Extract-Transform-Load process)."
+      - "Developed in solo from scratch C# console app for importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads to Big Query, S3 buckets at GCP (Google Cloud Platform)."
+      - "Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users."
+      - "Created app logging and server usage monitoring. "
+      - "Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app."
+      - "Visualised performance metrics in Data Studio, wrote documentation, created logging system with Serilog, Seq and OpenTelemetry"
+      - "Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
+
+  - role: C# Developer, Unity3D Developer, Gamedesigner
+    time: 2019-2021
+    company: 3dru (3d-printed hardware, VR and mobile prototypes)
+    details: ""
+    details-list:
+      - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases), Profiler, Scriptable objects"
+      - "Version control: Git CLI, Git LFS, GitKraken, Sourcetree"
+      - "Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine"
+      - "Multiplayer matchmaking and lobby: Photon Unity Networking"
+      - "Editor: OpenUPM (alternative package manager), Odin Inspector, Custom editors"
+      - "Level design: Archimatix, ProBuilder, ProGrid"
+      - "AI: Behaviour Tree Designer, FSM (Finite State Machines)"
+      - "External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code"
+      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2."
+      - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
+      - "Project Management: Jira, Confluence, Trello"
+      - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
+      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)"
+      - "Backups of all of the above with Duplicati"
+
+  - role: Project manager
+    time: 2016-2018
+    company: (immersive theater, quest room)
+    link: msk2048.ru
+    details: Making stuff operate smoothly. Optimizing routines. Extinguishing fires.
+    details-list: ""
+
+  - role: Entrepreneur, PM, gamedesigner, HR, marketer, jack of all trades
+    time: 2014-2016
+    company: (quest game, escape room)
+    link: claustrophobia.com/moscow/kvest/filosofskij-kamen
+    details: |
+      Inventing stuff from scratch, BizDev, CusDev, talking to people, game balance, talents, construction, advertising, making sure bathroom is perfect.
+      Won "Quest of the year 2016" 
+      Tons of 10/10 from players. 
+      This project is an achievement I am really proud of. 
+      Check photos, link above.
+    details-list: ""
+
+  - role: System administrator, datacenter engineer
+    time: 2011-2014
+    company: (ISP, Datacenter)
+    link: netorn.ru
+    details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
+    details-list: ""
+
+  - role: Tech support, system administrator
+    time: 2005-2011
+    company: (ISP)
+    link: cross-t.ru
+    details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
+    details-list: ""
