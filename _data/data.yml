@@ -17,13 +17,18 @@ contact:
 
 hardskills:
   skill:
-    - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V
-    - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
-    - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
-    - Python, blockchain, GoLang, Java, PHP
+    - Linux, Unix, VMware, Proxmox, Hyper-V, Docker, Kubernetes,
+    - Gitlab, Github, Git, CI/CD, Ansible, Octopus Deploy, Jenkins, TeamCity, 
+    - Prometheus, Grafana, Zabbix, infrastructure, monitoring
+    - Google Cloud Platform (GCP), Azure, AWS
+    - C#, dotNET, ASP.NET
+    - Claude Code, OpenCode, Pi, LM Studio (Bionic), JEV
+    - LLM, MCP, custom Agent-harness
+    - Bash, Python, blockchain, GoLang, Java, PHP
     - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
-    - LLM, RAG, N8N, Agents
-    - Claude Code, MCP, Gemini CLI, Ollama, OpenCode, VsCode Continue,  Cline
+    - PostgreSQL, MySQL, MariaDb, MongoDB
+    - baremetal, RaspberryPi, Unity3D (VR, Android, iOS)
+    
 
 softskills:
   skill:
@@ -58,7 +63,7 @@ bio: |
 
 experience:
   - role: DevOps
-    time: 2023-2025
+    time: 2023-now
     company: NDA-organization
     link:
     details: R&D, AI, Blockchain and all sorts of Rock`n`Roll.
